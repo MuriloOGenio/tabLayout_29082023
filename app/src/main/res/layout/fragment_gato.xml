@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     tools:context=".GatoFragment">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/idRecycleViewGato"
+    <ListView
+        android:id="@+id/lstgato"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

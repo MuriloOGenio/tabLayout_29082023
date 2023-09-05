@@ -16,13 +16,13 @@ public class MyViewPagerAdapter extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 0:
-                return new CachorroFragment();
-            case 1:
                 return new GatoFragment();
+            case 1:
+                return new CachorroFragment();
             case 2:
                 return new PassaroFragment();
             default:
-                return new CachorroFragment();
+                return new GatoFragment();
         }
     }
 
